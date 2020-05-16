@@ -1,0 +1,5 @@
+name: CPSPopup
+version: 1.0.0
+main: Inaayat\CPSPopup\Main
+api: [3.0.0]
+author: Inaayat
