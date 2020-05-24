@@ -44,7 +44,7 @@ class Main extends PluginBase implements Listener {
         return $clicks;
     }
 
-    public function addCPS(Player $player): void{
+    public function addCPS(Player $player): void {
         if(!isset($this->clicks[$player->getLowerCaseName()])){
             $this->clicks[$player->getLowerCaseName()] = [time(), 0];
         }
