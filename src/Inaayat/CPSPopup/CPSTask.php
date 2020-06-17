@@ -19,7 +19,7 @@ class CPSTask extends Task{
             $cpspopup = $this->plugin->config->get("CPSPopup");
             $cpspopup = str_replace("{cps}", $this->plugin->getCPS($players), $cpspopup);
             $cpspopup = str_replace("&", "§", $cpspopup);
-            $players->setScoreTag($cpspopup);
+            $players->setPopup($cpspopup);
         }
     }
 }
