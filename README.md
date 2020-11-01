@@ -7,4 +7,7 @@
 * Restart you're server.
 * and done Enjoy.
 
+## Credit;
+* @JackMD
+
 ### This plugin was made with 💓 by Inaayat.
